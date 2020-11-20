@@ -1,0 +1,22 @@
+{
+  "name": "software-testing-assigment",
+  "version": "1.0.0",
+  "description": "Testing project for COMP.SE.200-2020-assignment course.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markspl/software-testing-assigment.git"
+  },
+  "author": "Markus Palomaki and Antti Eskelinen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markspl/software-testing-assigment/issues"
+  },
+  "homepage": "https://github.com/markspl/software-testing-assigment#readme"
+}
