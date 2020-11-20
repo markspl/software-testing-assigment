@@ -12,3 +12,12 @@ submodule:
 
 `git submodule update --init`
 
+Install dependencies by running following in the root directory:
+
+`npm i`
+
+###### Running tests
+
+Run following command to run the tests
+
+`npm test`
