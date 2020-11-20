@@ -4,3 +4,11 @@
 ###### Members
 * Antti Eskelinen
 * Markus Palomäki
+
+###### Initializing
+
+Run following command in the cloned repository to fetch course code as git
+submodule:
+
+`git submodule update --init`
+
