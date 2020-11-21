@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/markspl/software-testing-assigment.svg?branch=master)](https://travis-ci.com/markspl/software-testing-assigment)
+[![Coverage Status](https://coveralls.io/repos/github/markspl/software-testing-assigment/badge.svg?branch=master)](https://coveralls.io/github/markspl/software-testing-assigment?branch=master)
+
 ## COMP.SE.200-2020-2021-1 Software Testing
 #### Assignment - Part 2 - Executing the tests
 
