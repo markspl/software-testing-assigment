@@ -4,5 +4,15 @@ node_js:
 
 install:
   - npm i
-script:
-  - npm test
+#script:
+#  - npm test
+
+env:
+  global:
+    - COVERALLS_PARALLEL=true
+
+jobs:
+  include:
+    - script: COVERALLS_FLAG_NAME=Test npm test
+notifications:
+  webhooks: https://coveralls.io/webhook
