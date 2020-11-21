@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Testing project for COMP.SE.200-2020-assignment course.",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "jest"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,11 @@
   },
   "homepage": "https://github.com/markspl/software-testing-assigment#readme",
   "dependencies": {
+    "cross-env": "^7.0.2",
     "jest": "^26.6.3"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-node",
+    "transform": {}
   }
 }
