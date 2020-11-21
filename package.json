@@ -26,6 +26,10 @@
   },
   "jest": {
     "testEnvironment": "jest-environment-node",
+    "collectCoverageFrom":
+      "**/*.js",
+      "!**/node_modules/**",
+      "!**/.internal/**"
     "transform": {}
   },
   "devDependencies": {
