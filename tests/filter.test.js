@@ -1,6 +1,7 @@
 import filter from "../source/src/filter";
 
 describe("Test filter", () => {
+
   test("with empty array", () => {
     expect(filter([], () => true)).toEqual([[]]);
   });
@@ -29,4 +30,5 @@ describe("Test filter", () => {
       )
     ).toEqual([{ id: 1, b: true }]);
   });
+
 });
