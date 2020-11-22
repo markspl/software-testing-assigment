@@ -11,6 +11,7 @@ script:
 env:
   global:
     - COVERALLS_PARALLEL=true
+    - TRAVIS_ALLOW_FAILURE=true
 
 notifications:
   webhooks: https://coveralls.io/webhook
