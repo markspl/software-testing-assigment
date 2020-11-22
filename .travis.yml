@@ -4,6 +4,10 @@ node_js:
 
 install:
   - npm i
+
+before_script:
+  - git submodule update --init
+
 script:
   - npm test
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
