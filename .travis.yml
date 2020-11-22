@@ -11,7 +11,9 @@ script:
 env:
   global:
     - COVERALLS_PARALLEL=true
-    - TRAVIS_ALLOW_FAILURE=true
+
+jobs:
+  fast_finish: true
 
 notifications:
   webhooks: https://coveralls.io/webhook
