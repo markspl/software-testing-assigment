@@ -8,12 +8,5 @@ script:
   - npm test
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
 
-env:
-  global:
-    - COVERALLS_PARALLEL=true
-
-jobs:
-  fast_finish: true
-
 notifications:
   webhooks: https://coveralls.io/webhook
